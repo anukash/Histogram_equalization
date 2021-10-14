@@ -51,7 +51,6 @@ if __name__ == '__main__':
     opencv_equalize_image = cv2.equalizeHist(img)
 
 
-    # plt.figure()
     plt.subplot(2, 3, 1)
     plt.imshow(img, cmap='gray')
     plt.title('Original image')
